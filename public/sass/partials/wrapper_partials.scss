@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.card {
+    display: inline-block;
+    .title {
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: "Lato";
+}
+
+.pl {
+    float: left;
+}
+
+.pr {
+    float: right;
+}
+
+.wrapper {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.cf:after,
+.cf:before {
+    content: ' ';
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,67 @@
+html, body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.menu.top {
+  float: left; }
+
+.menu.user {
+  float: right; }
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+
+.position-ref {
+  position: relative; }
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px; }
+
+.content {
+  text-align: center; }
+
+.title {
+  font-size: 44px; }
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.m-b-md {
+  margin-bottom: 30px; }
+
+.cf:after, .cf:before {
+  content: ' ';
+  display: table;
+  clear: both; }
+
+.navbar {
+  padding: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0; }
+
+#footer {
+  background-color: #8dc63f;
+  padding: 2em; }
+  #footer a {
+    color: #fff;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

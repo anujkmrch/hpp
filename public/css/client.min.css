@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  font-weight: 100; }
+
+.card {
+  display: inline-block; }
+  .card .title {
+    font-size: 1.5em;
+    font-weight: 100; }
+
+body {
+  margin: 0;
+  font-family: "Lato"; }
+
+.pl {
+  float: left; }
+
+.pr {
+  float: right; }
+
+.wrapper {
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0; }
+
+.cf:after,
+.cf:before {
+  content: ' ';
+  display: table;
+  clear: both; }
+
+legend,
+.fc-grp {
+  display: block;
+  vertical-align: top;
+  width: 100%; }
+  legend:before, legend:after,
+  .fc-grp:before,
+  .fc-grp:after {
+    content: ' ';
+    display: table; }
+  legend:after,
+  .fc-grp:after {
+    clear: both; }
+
+.fc-hint {
+  margin: .5em 0;
+  font-size: 1em;
+  font-weight: 100; }
+
+.fc-grp {
+  margin-bottom: 1.3em; }
+
+legend {
+  border-bottom: 1px solid #282639;
+  font-size: 2em;
+  font-weight: 100;
+  padding-bottom: .2em;
+  margin-bottom: .5em; }
+
+.fc-link {
+  text-decoration: none;
+  color: #00334e; }
+
+.fc-lb,
+label {
+  display: block;
+  width: 100%; }
+
+.fc-in {
+  width: 100%;
+  border: 1px solid #999;
+  padding: .5em;
+  border-radius: .2em;
+  margin: 0 auto; }
+  .fc-in:focus, .fc-in:hover {
+    border-color: #00334e;
+    box-shadow: 0 0 0 0 0;
+    outset: none; }
+
+.fc-select {
+  width: 100%;
+  padding: .5em;
+  border-radius: .2em;
+  background-color: #FFF; }
+
+.fc-btn {
+  display: inline-block;
+  width: auto;
+  border: 0px solid #999;
+  padding: .5em 1em;
+  border-radius: .2em; }
+  .fc-btn:hover {
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    -ms-transition: all .9s ease-in-out;
+    -o-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out; }
+  .fc-btn.blk {
+    margin: 1em 0;
+    width: 100%; }
+  .fc-btn.bg {
+    padding: 2em 4em; }
+  .fc-btn.sm {
+    padding: .3em .5em;
+    font-size: .9em; }
+  .fc-btn.col-def {
+    background-color: #00334e;
+    color: #fff; }
+    .fc-btn.col-def:hover {
+      background-color: #302D43; }
+  .fc-btn.col-red {
+    background-color: #ed1b2e;
+    color: #fff; }
+    .fc-btn.col-red:hover {
+      background-color: #282639; }
+
+.fc-ta {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); }
+
+.fc-ck,
+.fc-rd {
+  display: block;
+  margin: 1em 0; }
+  .fc-ck span,
+  .fc-rd span {
+    margin-left: 1em; }
+
+.fc-rd {
+  margin-bottom: .1em; }
+  .fc-rd input {
+    display: inline-block; }
+  .fc-rd span {
+    margin-right: 1em; }
+
+.fc-hz .fc-lb,
+.fc-hz label {
+  width: 20%;
+  display: inline-block;
+  text-align: right;
+  padding-right: 1em; }
+.fc-hz .fc-in,
+.fc-hz .fc-ta {
+  width: 78%;
+  display: inline-block; }
+.fc-hz .fc-btn {
+  float: right;
+  display: block;
+  margin: 0 1%; }
+  .fc-hz .fc-btn.blk {
+    display: block;
+    float: none; }
+
+.tabled {
+  overflow-x: auto;
+  margin: 2em 0; }
+
+.table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%; }
+  .table.hovered tr:hover {
+    background-color: #F4F6F9 !important; }
+  .table.striped tr {
+    background-color: #c4dff6; }
+  .table.striped tr:nth-child(even) {
+    background-color: #dbebfa; }
+  .table th {
+    background-color: #56a0d3;
+    color: #fff; }
+  .table th,
+  .table td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: bottom;
+    border: 1px solid #EAEDF3; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  ul ul {
+    display: none; }
+
+a {
+  color: #fff; }
+
+.header {
+  background-color: #282639;
+  padding: 1em 0; }
+  .header .logo {
+    display: inline-block; }
+  .header .nav {
+    display: inline-block;
+    float: right; }
+    .header .nav li {
+      display: inline-block; }
+
+.admin {
+  vertical-align: top !important;
+  padding: 3em 0; }
+  .admin a {
+    color: #fff; }
+  .admin h1 {
+    font-weight: 100;
+    margin: 0;
+    padding: 0; }
+  .admin .table a {
+    color: #00334e; }
+  .admin .full {
+    width: 100%;
+    margin-bottom: 2em; }
+  .admin .small {
+    width: 20%;
+    vertical-align: top;
+    display: inline-block; }
+  .admin .big {
+    width: 78%;
+    vertical-align: top !important;
+    display: inline-block;
+    margin-left: 1em; }
+  .admin .btn {
+    display: block;
+    margin: .2em 0;
+    padding: .5em 1em;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid #00334e;
+    color: #00334e; }
+    .admin .btn:hover {
+      background-color: #00334e;
+      color: #fff; }
+  .admin.frontpage {
+    padding: 3em 0; }
+    .admin.frontpage .btn {
+      display: inline-block !important;
+      margin: .2em 0;
+      padding: .5em 1em;
+      font-weight: bold;
+      border: 2px solid #fff;
+      color: #fff;
+      width: auto; }
+      .admin.frontpage .btn:hover {
+        background-color: #FFF;
+        color: #00334e; }
+    .admin.frontpage .qab {
+      display: inline-block;
+      width: 250px;
+      padding: 1em;
+      margin: 1em;
+      background-color: #00334e;
+      color: #fff; }
+      .admin.frontpage .qab .title {
+        font-size: 1.2em;
+        font-weight: bold; }
+      .admin.frontpage .qab .fa {
+        margin: .2em 0;
+        font-size: 2.3em; }
+  .admin.access table a {
+    color: #00334e !important; }
+  .admin.access legend {
+    font-size: 1.2em;
+    margin-top: 2em; }
+  .admin.access .roles_permissions {
+    vertical-align: top !important;
+    display: inline-block; }
+  .admin.access .permission,
+  .admin.access .role {
+    vertical-align: top !important;
+    display: inline-block;
+    width: 30%;
+    margin-right: 1%; }
+  .admin.access .roles,
+  .admin.access .permissions {
+    display: inline-block;
+    width: 66%;
+    margin-left: 1%; }
+  .admin.access .big {
+    padding: 0 2em; }
+  .admin.user {
+    vertical-align: top; }
+    .admin.user .profile {
+      padding: 0 2em; }
+    .admin.user form .btn {
+      border: 0;
+      display: block; }
+
+/*# sourceMappingURL=client.min.css.map */

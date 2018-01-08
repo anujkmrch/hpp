@@ -1,0 +1,29 @@
+body {
+  background-color: #fff; }
+
+.error-page {
+  background-color: #8dc63f; }
+
+body, a, .btn {
+  font-family: "Ubuntu"; }
+
+.margin10 {
+  margin: 10px 0; }
+
+.frontpage .cell .title {
+  font-size: 1.2em; }
+.frontpage .cell .icon {
+  font-size: 2em; }
+
+.user .margin {
+  margin-bottom: 40px; }
+.user .profile .name {
+  font-size: 3em; }
+.user .profile .username {
+  font-size: 1.2em; }
+.user .profile .email {
+  font-size: 1.2em; }
+.user .profile .error {
+  font-weight: 100; }
+
+/*# sourceMappingURL=admin.css.map */

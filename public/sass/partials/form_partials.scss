@@ -1,0 +1,167 @@
+// ##### Standard form design
+legend,
+.fc-grp {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    &:before,
+    &:after {
+        content: ' ';
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.fc-hint {
+    margin: .5em 0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.fc-grp {
+    margin-bottom: 1.3em;
+}
+
+legend {
+    border-bottom: 1px solid $primary;
+    font-size: 2em;
+    font-weight: 100;
+    padding-bottom: .2em;
+    margin-bottom: .5em;
+}
+
+.fc-link {
+    text-decoration: none;
+    color: $blue;
+}
+
+.fc-lb,
+label {
+    display: block;
+    width: 100%;
+}
+
+.fc-in // form input
+{
+    width: 100%;
+    border: 1px solid #999;
+    padding: .5em;
+    border-radius: .2em;
+    margin: 0 auto;
+    &:focus,
+    &:hover {
+        border-color: $blue;
+        box-shadow: 0 0 0 0 0;
+        outset: none;
+    }
+}
+
+.fc-select {
+    width: 100%;
+    padding: .5em;
+    border-radius: .2em;
+    background-color: #FFF;
+}
+
+
+.fc-btn // form button
+{
+    display: inline-block;
+    width: auto;
+    border: 0px solid #999;
+    padding: .5em 1em;
+    border-radius: .2em;
+
+    &:hover {
+        background-color: $black;
+        color: $white;
+        -webkit-transition: all .9s ease-in-out;
+        -moz-transition: all .9s ease-in-out;
+        -ms-transition: all .9s ease-in-out;
+        -o-transition: all .9s ease-in-out;
+        transition: all .9s ease-in-out;
+    } // ## big blocl of button
+    &.blk {
+        margin: 1em 0;
+        width: 100%;
+    } //size enhancing
+    &.bg {
+        padding: 2em 4em;
+    }
+    &.xbg {}
+    &.sm {
+        padding: .3em .5em;
+        font-size: .9em;
+    } // button color definitions
+    &.col-def //##default color
+    {
+        background-color: $blue;
+        color: $white;
+        &:hover {
+            background-color: $secondary;
+        }
+    }
+    &.col-red {
+        background-color: $red;
+        color: $white;
+        &:hover {
+            background-color: $primary;
+        }
+    }
+}
+
+.fc-ta // form text area
+{
+    width: 375px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fc-ck,
+.fc-rd {
+    display: block;
+    margin: 1em 0;
+    span {
+        margin-left: 1em;
+    }
+}
+
+.fc-rd {
+    margin-bottom: .1em;
+    input {
+        display: inline-block;
+    }
+    span {
+        margin-right: 1em;
+    }
+}
+
+.fc-hz {
+    .fc-lb,
+    label {
+        width: 20%;
+        display: inline-block;
+        text-align: right;
+        padding-right: 1em;
+    }
+    .fc-in,
+    .fc-ta {
+        width: 78%;
+        display: inline-block;
+    }
+    .fc-btn {
+        float: right;
+        display: block;
+        margin: 0 1%;
+        &.blk {
+            display: block;
+            float: none;
+        }
+    }
+}

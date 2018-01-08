@@ -1,0 +1,62 @@
+$green :#8dc63f;
+$white :#fff;
+$gray:	#4C4C4C;
+body{
+	background-color:$white;
+}
+.error-page{
+	background-color:$green;
+}
+body,a,.btn
+{
+	font-family:"Ubuntu";
+
+}
+.margin10{
+	margin:10px 0;
+}
+.frontpage
+{
+	.cell{
+		.title{
+			font-size:1.2em;
+		}
+		.icon{
+			font-size:2em;
+		}
+	}
+}
+// end of frontpage
+.user
+{
+	.margin
+	{
+		margin-bottom:40px;
+	}
+	
+	.profile
+	{
+		.name
+		{
+			font-size:3em;
+		}
+		.username
+		{
+			font-size:1.2em;
+		}
+		.email
+		{
+			font-size:1.2em;
+		}
+		.error
+		{
+			font-weight:100;
+		}
+	}
+}
+// end of user
+// 
+.menu
+{
+	
+}

@@ -1,0 +1,74 @@
+$white: #fff;
+// $primary:#ed1b2e;
+$secondary: #00a4e4;
+$text: #333333;
+$textSecondary: #9f9fa3;
+$blue:#00334e;
+$primary: $blue;
+$yellow: #ffd900;
+$linked: #ce181e;
+$red:#ed1b2e;
+$highlight: #73e298;
+$black: #333;
+
+$purpleLight: #302D43;
+$purpleDark: #282639;
+$greenNeon: #92CF4B;
+$greyLight: #F4F6F9;
+$greyDark: #EAEDF3;
+$black: #000;
+$white: #fff;
+
+$primary: $purpleDark;
+$secondary: $purpleLight;
+$ternary: $greenNeon;
+$highlightPrimary: $greyDark;
+$highlightSecondary :#c4dff6;
+
+//Link color
+$linkPrimary: $purpleLight;
+$linkSecondary: $purpleDark;
+
+
+// table variable
+$highlightStripedPrimary :#c4dff6;
+$highlightTablehead: #56a0d3;
+$highlightTableheadColor: $white;
+$highlightHover:$greyLight;
+$highlightEven: #dbebfa;
+
+* {
+    box-sizing: border-box;
+}
+
+@import "partials/wrapper_partials.scss";
+
+@import "partials/form_partials.scss";
+
+.header{
+	background-color:$purpleDark;
+	a{
+		color:#fff;
+	}
+}
+.logo{
+	display: inline-block;
+	margin:0;
+	padding:.8em 0;;
+	font-size: 1.2em;
+}
+.nav{
+	list-style: none;
+	float: right;
+	margin:0;
+	padding:0;
+	li{
+		margin:0;
+		padding:0 1em;
+		display: inline-block;
+		a{
+			margin:0;
+			padding:0;
+		}
+	}
+}
